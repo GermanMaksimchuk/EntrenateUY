@@ -7,7 +7,8 @@
 /*BARRA DE NAVEGACION*/
 
 header{
-    background-color: darkred;    
+    background: rgb(230,14,14);
+    background: linear-gradient(90deg, rgba(230,14,14,0.6446953781512605) 0%, rgba(255,0,18,1) 0%, rgba(212,91,21,0.969625350140056) 100%);  
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
@@ -63,7 +64,8 @@ h1 a {
         
 /* PIE DE PAGINA*/    
 footer{
-    background-color: darkred;
+    background: rgb(230,14,14);
+    background: linear-gradient(90deg, rgba(230,14,14,0.6446953781512605) 0%, rgba(255,0,18,1) 0%, rgba(212,91,21,0.969625350140056) 100%);
     padding: 35px;
     font-family: 'Fredoka One', cursive;
     font-family: 'Mukta', sans-serif;
@@ -89,10 +91,11 @@ footer{
           margin: 5px 5px;
           font-family: 'Fredoka One', cursive;
           font-family: 'Mukta', sans-serif;
-         
-
-
         }
+
+
+
+         
 
 
   
@@ -250,15 +253,23 @@ form{
         .cardprod{
             border:solid 2px none;
             width: 250px;
+            height:  400px;
             
         }
+        .cardprod:hover{
+            transform: scale(1.2); 
+            transition-duration: 500ms;
+            transition-delay: 0.5s;
+
+        }
+
       .cardtext{
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
         text-align: center;
-        
 
       }
+
 
       .cardprod a{
           border:  2px solid grey;
@@ -274,6 +285,7 @@ form{
         .gondola{
             display: flex;
             justify-content:space-around;
+
         }
         
         /* INDUMENTARIA */
