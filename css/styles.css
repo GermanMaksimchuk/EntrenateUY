@@ -69,6 +69,7 @@ footer{
     padding: 35px;
     font-family: 'Fredoka One', cursive;
     font-family: 'Mukta', sans-serif;
+    color: #fff;
            
     }
 /*MODIFICANDO EL BODDY*/        
@@ -149,7 +150,7 @@ form{
 
         .titulo2{
             justify-content: center;
-            display: flex;
+            display:flex;
             text-align: left;
             padding: 20px;
             margin: 5px 5px;
@@ -159,8 +160,8 @@ form{
 
         .titulo3{
             justify-content: center;
-            display: flex;
-            text-align: left;
+       
+            text-align: center;
             padding: 20px;
             margin: 5px 5px;
             font-family: 'Fredoka One', cursive;
@@ -175,14 +176,24 @@ form{
             font-family: 'Fredoka One', cursive;
             font-family: 'Mukta', sans-serif;
                     }
+
+        .profe:hover {
+            transform: scale(1.2); 
+            transition-duration: 500ms;
+            transition-delay: 0.5s;
+            
+
+
+        }
         .profe img{
             width: 100%;
+           
            
 
         }
 
         .contenedorprofe{
-            display: flex;
+          
             justify-content: space-around;
         }
 
@@ -257,7 +268,7 @@ form{
             
         }
         .cardprod:hover{
-            transform: scale(1.2); 
+            transform: scale(1.1); 
             transition-duration: 500ms;
             transition-delay: 0.5s;
 
@@ -375,7 +386,7 @@ form{
             width: 150px;     
     }
     iframe {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
     }
 }
