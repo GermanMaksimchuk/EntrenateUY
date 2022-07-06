@@ -8,7 +8,7 @@ h1 a {
     text-decoration: none;
 
     }
-     
+ /*  PRRAFOS */      
     .portada1{
         justify-content: center;
         display: flex;
@@ -16,9 +16,19 @@ h1 a {
         padding: 40px;
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
-         
+         }
 
-      }
+    .portada2{
+        justify-content:center;
+         display: flex;
+         align-items: left;
+         padding: 40px;
+         font-family: 'Fredoka One', cursive;
+         font-family: 'Mukta', sans-serif;
+        }
+/* TITULOS 1 . 2 . 3*/           
+
+      
       .titulo1{
         justify-content: center;
         display: flex;
@@ -47,15 +57,7 @@ h1 a {
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
     }
-    .portada2{
-        justify-content:center;
-        display: flex;
-        align-items: left;
-        padding: 40px;
-        font-family: 'Fredoka One', cursive;
-        font-family: 'Mukta', sans-serif;
-    }
-
+/* LISTADO DEL ASIDE */  
     .listado{
         justify-content:center;
         display: flex;
@@ -65,4 +67,3 @@ h1 a {
         font-family: 'Mukta', sans-serif;
 
     }
-    
