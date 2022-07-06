@@ -1,0 +1,102 @@
+/*CUADRO DE CONTACTO*/
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 red;
+    box-shadow:0 1px 0 wheat;
+
+}
+.btn-green{
+    color:rgb(0, 0, 0);
+    background-color: rgba(218, 216, 216, 0.541);
+    }
+
+.btn-green:hover{
+    background-color:rgba(218, 216, 216, 0.541);
+
+}
+
+form{
+    background-color: rgba(218, 216, 216, 0.76);
+    margin: 0 auto;
+    width: 300px;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 3px;
+
+
+}
+.cardprod{
+    border:solid 2px none;
+    width: 250px;
+    height:  400px;
+    
+}
+.cardprod:hover{
+    transform: scale(1.2); 
+    transition-duration: 500ms;
+    transition-delay: 0.5s;
+
+}
+
+.cardtext{
+font-family: 'Fredoka One', cursive;
+font-family: 'Mukta', sans-serif;
+text-align: center;
+
+}
+
+
+.cardprod a{
+  border:  2px solid grey;
+  text-decoration: none;
+  font-size: 25px ;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  border-radius: 10px;
+
+}
+
+.gondola{
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.profe{
+    border: solid 2px grey;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Mukta', sans-serif;
+            }
+.profe img{
+    width: 100%;
+   
+
+}
+
+.contenedorprofe{
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe{
+border-radius: 50px;
+padding: 10px;
+
+
+
+}
+ article iframe, 
+    article * img {
+    margin: 0 auto;
+    display: block;
+}
+
+
