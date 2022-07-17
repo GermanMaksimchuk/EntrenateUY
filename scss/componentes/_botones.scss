@@ -17,6 +17,7 @@
     background-color:rgba(218, 216, 216, 0.541);
 
 }
+/*CONTACTO*/
 
 form{
     background-color: rgba(218, 216, 216, 0.76);
@@ -27,6 +28,7 @@ form{
     font-family: 'Mukta', sans-serif;
     border-radius: 3px;
 
+/*TARJETA DE PRODUCTO*/
 
 }
 .cardprod{
@@ -61,11 +63,8 @@ text-align: center;
 
 }
 
-.gondola{
-    display: flex;
-    justify-content:space-around;
 
-}
+/*TARJETA DE PROFESORES*/
 
 .profe{
     border: solid 2px grey;
@@ -85,6 +84,9 @@ text-align: center;
     display: flex;
     justify-content: space-around;
 }
+
+
+/*VIDEO*/
 
 iframe{
 border-radius: 50px;
