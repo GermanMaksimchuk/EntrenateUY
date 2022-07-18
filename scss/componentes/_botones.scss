@@ -11,11 +11,22 @@
 .btn-green{
     color:rgb(0, 0, 0);
     background-color: rgba(218, 216, 216, 0.541);
+    &:hover{
+        background-color:rgba(218, 216, 216, 0.541);; 
+ 
     }
 
+<<<<<<< HEAD
 .btn-green:hover{
     background-color:rgba(218, 216, 216, 0.541);
 }
+=======
+    }
+
+
+
+/*CONTACTO*/
+>>>>>>> develop
 
 form{
     background-color: rgba(218, 216, 216, 0.76);
@@ -25,6 +36,12 @@ form{
     font-family: 'Fredoka One', cursive;
     font-family: 'Mukta', sans-serif;
     border-radius: 3px;
+<<<<<<< HEAD
+=======
+
+/*TARJETA DE PRODUCTO*/
+
+>>>>>>> develop
 }
 
 
@@ -37,14 +54,21 @@ form{
 .cardprod{
     border:solid 2px none;
     width: 250px;
+<<<<<<< HEAD
     height:  400px;   
 }
 
 .cardprod:hover{
+=======
+    height:  400px;
+    &:hover{
+>>>>>>> develop
     transform: scale(1.2); 
     transition-duration: 500ms;
     transition-delay: 0.5s;
 }
+}
+
 
 .cardtext{
 font-family: 'Fredoka One', cursive;
@@ -63,10 +87,14 @@ text-align: center;
 }
 
 
+<<<<<<< HEAD
 
 
 
 /* TARJETAS PROFE*/  
+=======
+/*TARJETA DE PROFESORES*/
+>>>>>>> develop
 
 .profe{
     border: solid 2px grey;
@@ -86,6 +114,7 @@ text-align: center;
     justify-content: space-around;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -103,5 +132,8 @@ padding: 10px;
     margin: 0 auto;
     display: block;
 }
+=======
+
+>>>>>>> develop
 
 

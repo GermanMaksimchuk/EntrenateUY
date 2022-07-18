@@ -1,6 +1,6 @@
 /* H1*/    
 h1 a {
-    color:black;
+    
     font-size: 0,1rem;
     font-family: 'Fredoka One', cursive;
     font-family: 'Mukta', sans-serif;
@@ -9,8 +9,12 @@ h1 a {
     color:white;
 
     }
+<<<<<<< HEAD
 
  /*  PRRAFOS */      
+=======
+/* PARRAFOS*/       
+>>>>>>> develop
     .portada1{
         justify-content: center;
         display: flex;
@@ -19,7 +23,10 @@ h1 a {
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
         color:rgb(8, 8, 8) ;
+    }
+    
         
+<<<<<<< HEAD
     }
 
     .portada2{
@@ -39,6 +46,19 @@ h1 a {
         /* TITULOS 1 . 2 . 3*/           
 
       
+=======
+        .portada2{
+            justify-content:center;
+            display: flex;
+            align-items: left;
+            padding: 40px;
+            font-family: 'Fredoka One', cursive;
+            font-family: 'Mukta', sans-serif;
+        }
+    
+/* TITULOS*/          
+     
+>>>>>>> develop
       .titulo1{
         justify-content: center;
         display: flex;
@@ -68,6 +88,11 @@ h1 a {
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
     }
+<<<<<<< HEAD
+=======
+
+/* LISTADO */  
+>>>>>>> develop
 
 
 
@@ -84,3 +109,11 @@ h1 a {
         font-family: 'Mukta', sans-serif;
 
     }
+<<<<<<< HEAD
+=======
+
+    // VARIABLES
+    $color-primario: black;
+    $color-secundario:White;
+
+>>>>>>> develop
