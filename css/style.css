@@ -249,10 +249,7 @@ th {
   font-family: "Mukta", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 /*ASIDE */
->>>>>>> develop
 aside {
   width: 210px;
   height: 200px;
@@ -263,8 +260,6 @@ aside {
   font-family: "Mukta", sans-serif;
 }
 
-<<<<<<< HEAD
-=======
 /*VIDEO*/
 iframe {
   border-radius: 50px;
@@ -309,7 +304,6 @@ article * img {
   grid-column-start: span 2;
 }
 
->>>>>>> develop
 /*   MEDIA QUERIS */
 @media screen and (max-width: 768px) {
   header {
