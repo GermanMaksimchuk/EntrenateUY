@@ -180,3 +180,28 @@ text-align: center;
   .button-menu.close span:nth-child(3) {
     display: none;
   }
+
+  /* HERO BOONES */
+
+  .contenedor .warp .box  .inscribite {
+    display: flex;
+    margin-top: 20px;
+    flex-flow: row wrap;
+    
+  }
+  .contenedor .warp .box .inscribite .bt1 {
+    flex-basis: 60%;
+    border: solid 4px;
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    margin-right: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Mukta', sans-serif;
+    text-shadow: 1px 1px #000000;
+    
+    
+  }
