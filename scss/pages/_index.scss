@@ -20,7 +20,10 @@
             display: none ;
 
         }
- 
+        .todoslosbaner {
+
+            display: none ;
+        }
 
     }
     @media screen and (max-width: 420px){
@@ -35,6 +38,8 @@
 
             display: none ;
         }
+
+
 
         table {
             display: block;
