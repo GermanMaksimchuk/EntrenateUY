@@ -468,7 +468,7 @@ article * img {
 .contenedor2 {
   display: flex;
   max-width: 100%;
-  height: 20vh;
+  height: 25vh;
   background-image: url("../img/banner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -478,8 +478,28 @@ article * img {
 .contenedor3 {
   display: flex;
   max-width: 100%;
-  height: 20vh;
+  height: 25vh;
   background-image: url("../img/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.contenedor4 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.contenedor5 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -495,9 +515,6 @@ article * img {
     padding: 10px;
   }
   aside {
-    display: none;
-  }
-  .todoslosbaner {
     display: none;
   }
 }
