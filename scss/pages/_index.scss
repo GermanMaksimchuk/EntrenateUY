@@ -15,7 +15,9 @@
 
         aside {
             display: none ;
+
         }
+
     }
 
     /*   420 */
@@ -28,6 +30,8 @@
         aside {
             display: none ;
         }
+
+
 
         table {
             display: block;
@@ -43,3 +47,27 @@
         height: auto;
     }
 }
+
+@media screen and (max-width: 1120px){
+
+    .bigmenu {
+
+        display: none ;
+
+    }
+
+    }
+    @media screen and (min-width: 1120px){
+
+        .main-nav{
+    
+            display: none ;
+    
+        }
+        .button-menu{
+    
+            display: none ;
+    
+        }
+    
+        }

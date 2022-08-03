@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -151,6 +152,119 @@ form {
   justify-content: space-around;
 }
 
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.main-logo {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  text-decoration: none;
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  margin-left: -100%;
+  transition: all 0.2s linear;
+  z-index: 100;
+}
+
+.main-nav.show {
+  margin-left: 0;
+}
+
+.nav-links {
+  background-color: rgb(250, 250, 250);
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.link-item {
+  margin-top: 2rem;
+  color: #444444;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.button-menu {
+  z-index: 200;
+  width: 40px;
+  height: 40px;
+  border: none;
+  display: flex;
+  background: none;
+  flex-direction: column; /* Pondrá un span debajo del otro*/
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* 
+  Dibujamos una línea recta por cada span creando el tipico menu hamburguesa
+*/
+.button-menu span {
+  width: 37px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+  transform-origin: 4px 0px;
+  transition: all 0.2s linear;
+}
+
+/* 
+  con los span dibujamos un icono de cerrar 
+  para mostrar cuándo la navegación este abierta 
+*/
+.button-menu.close span {
+  opacity: 1;
+  transform: rotate(45deg) translate(0px, 0px);
+  background: #000000;
+}
+
+.button-menu.close span:nth-child(2) {
+  transform: rotate(-45deg) translate(-8px, 5px);
+}
+
+.button-menu.close span:nth-child(3) {
+  display: none;
+}
+
+/* HERO BOONES */
+.contenedor .warp .box .inscribite {
+  display: flex;
+  margin-top: 20px;
+  flex-flow: row wrap;
+}
+
+.contenedor .warp .box .inscribite .bt1 {
+  flex-basis: 40%;
+  border: solid 4px;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Fredoka One", cursive;
+  font-family: "Mukta", sans-serif;
+  text-shadow: 1px 1px #000000;
+}
+
 /*BARRA DE NAVEGACION*/
 header {
   background: rgb(230, 14, 14);
@@ -158,7 +272,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 40px;
+  padding: 3vh;
   align-items: center;
 }
 
@@ -202,6 +316,7 @@ footer {
   padding: 35px;
   font-family: "Fredoka One", cursive;
   font-family: "Mukta", sans-serif;
+  color: #fff;
 }
 
 /*TABLA */
@@ -304,6 +419,93 @@ article * img {
   grid-column-start: span 2;
 }
 
+/* HERO */
+.contenedor {
+  display: flex;
+  max-width: 100%;
+  height: 85vh;
+  background-image: url("../img/hero1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor .warp {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+}
+
+.contenedor .warp .box {
+  flex-basis: 100%;
+  color: white;
+  text-align: left;
+  align-self: center;
+}
+
+.contenedor .warp .box span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.contenedor .warp .box h2 {
+  font-size: 70px;
+  font-family: "Fredoka One", cursive;
+  font-family: "Mukta", sans-serif;
+  text-shadow: 5px 5px #000000;
+}
+
+.contenedor .warp .box p {
+  font-size: 25px;
+  font-family: "Fredoka One", cursive;
+  font-family: "Mukta", sans-serif;
+  text-shadow: 2px 2px #000000;
+}
+
+.contenedor2 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.contenedor3 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.contenedor4 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.contenedor5 {
+  display: flex;
+  max-width: 100%;
+  height: 25vh;
+  background-image: url("../img/banner5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
 /*   MEDIA QUERIS */
 @media screen and (max-width: 768px) {
   header {
@@ -336,6 +538,19 @@ article * img {
   iframe {
     max-width: 100%;
     height: auto;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .bigmenu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1120px) {
+  .main-nav {
+    display: none;
+  }
+  .button-menu {
+    display: none;
   }
 }
 
