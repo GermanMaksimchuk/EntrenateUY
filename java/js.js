@@ -24,3 +24,5 @@ navWrapper.addEventListener("click", e => {
     toggleButton.classList.remove("close");
   }
 });
+
+
