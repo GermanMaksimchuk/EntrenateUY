@@ -67,6 +67,7 @@ h1 a {
 }
 
 /* LISTADO */
+/* LISTADO DEL ASIDE */
 .listado {
   justify-content: center;
   display: flex;
@@ -106,6 +107,7 @@ form {
   /*TARJETA DE PRODUCTO*/
 }
 
+/* TRAJETAS DE PRODUCTOS */
 .cardprod {
   border: solid 2px none;
   width: 250px;
@@ -346,15 +348,6 @@ th {
   background: grey;
 }
 
-.portada2 {
-  justify-content: center;
-  display: flex;
-  align-items: left;
-  padding: 40px;
-  font-family: "Fredoka One", cursive;
-  font-family: "Mukta", sans-serif;
-}
-
 .listado {
   justify-content: center;
   display: flex;
@@ -507,6 +500,7 @@ article * img {
 }
 
 /*   MEDIA QUERIS */
+/*   768 */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -519,6 +513,7 @@ article * img {
     display: none;
   }
 }
+/*   420 */
 @media screen and (max-width: 420px) {
   header {
     flex-direction: row;
