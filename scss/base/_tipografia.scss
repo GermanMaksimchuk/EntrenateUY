@@ -21,18 +21,19 @@ h1 a {
     }
     
         
-        .portada2{
-            justify-content:center;
-            display: flex;
-            align-items: left;
-            padding: 40px;
-            font-family: 'Fredoka One', cursive;
-            font-family: 'Mukta', sans-serif;
-        }
+    .portada2{
+        justify-content:center;
+        display: flex;
+         align-items: left;
+        padding: 40px;
+        font-family: 'Fredoka One', cursive;
+        font-family: 'Mukta', sans-serif;
+       
+    }
     
 /* TITULOS*/          
      
-      .titulo1{
+    .titulo1{
         justify-content: center;
         display: flex;
         text-align: center;
@@ -40,9 +41,9 @@ h1 a {
         margin: 5px 5px;
         font-family: 'Fredoka One', cursive;
         font-family: 'Mukta', sans-serif;
-      }
+    }
 
-      .titulo2{
+    .titulo2{
         justify-content: center;
         display: flex;
         text-align: left;
@@ -62,14 +63,8 @@ h1 a {
         font-family: 'Mukta', sans-serif;
     }
 
-/* LISTADO */  
 
-
-
-
-
-
-/* LISTADO DEL ASIDE */  
+/*  ASIDE */  
     .listado{
         justify-content:center;
         display: flex;
@@ -80,6 +75,9 @@ h1 a {
 
     }
 
+
+
+    
     // VARIABLES
     $color-primario: black;
     $color-secundario:White;

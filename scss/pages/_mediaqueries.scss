@@ -1,6 +1,6 @@
 
        /*   MEDIA QUERIS */
-       /*   768 */
+       /*   768 PX */
        
        @media screen and (max-width: 768px){
         header{
@@ -20,7 +20,7 @@
 
     }
 
-    /*   420 */
+    /*   420 PX*/
     @media screen and (max-width: 420px){
         header{
             flex-direction:row ;
@@ -42,21 +42,30 @@
             border:solid 2px none;
             width: 150px;     
     }
-    iframe {
-        max-width: 100%;
-        height: auto;
+         iframe {
+            max-width: 100%;
+            height: auto;
     }
 }
 
-@media screen and (max-width: 1120px){
 
-    .bigmenu {
 
-        display: none ;
+
+
+
+
+       /* MEDIA QUERIES MENU BAR */
+
+    @media screen and (max-width: 1120px){
+
+        .bigmenu {
+
+            display: none ;
 
     }
 
     }
+
     @media screen and (min-width: 1120px){
 
         .main-nav{

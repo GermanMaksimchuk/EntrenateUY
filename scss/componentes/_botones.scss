@@ -31,7 +31,7 @@ form{
     font-family: 'Mukta', sans-serif;
     border-radius: 3px;
 
-/*TARJETA DE PRODUCTO*/
+
 
 }
 
@@ -91,6 +91,17 @@ text-align: center;
     justify-content: space-around;
 }
 
+
+
+
+
+
+
+
+
+
+
+/* MENU DE LINEAS */
 .main-header {
 
     display: flex;
@@ -151,9 +162,9 @@ text-align: center;
     cursor: pointer;
   }
   
-  /* 
-    Dibujamos una línea recta por cada span creando el tipico menu hamburguesa
-  */
+ 
+
+    /* LINEA RECTA DE MENU*/
   
   .button-menu span {
     width: 37px;
@@ -166,10 +177,7 @@ text-align: center;
     transition: all 0.2s linear;
   }
   
-  /* 
-    con los span dibujamos un icono de cerrar 
-    para mostrar cuándo la navegación este abierta 
-  */
+   /* ICONO DE CERRAR*/
   
   .button-menu.close span {
     opacity: 1;
@@ -185,6 +193,15 @@ text-align: center;
     display: none;
   }
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   /* HERO BOONES */
 
   .contenedor .warp .box  .inscribite {
