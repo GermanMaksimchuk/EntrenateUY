@@ -35,9 +35,9 @@ productosIndumentaria.push(Zapatilla)
 console.log(productosIndumentaria)
 
 
-/* Carrito a cargar*/
+
 let Totaldecarrito = 0
-/* Cuadro de dialogo*/
+
 let Sleccioneproducto = parseInt ( prompt("Escribe el producto que desea comprar : 1-Remera 2- Short 3- Zapatilla"
 ))
 
