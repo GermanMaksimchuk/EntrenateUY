@@ -92,3 +92,19 @@ alert("El valor a pagar es de es : "+Totaldecarrito)
 
 
 
+
+/* Manipulando el DOM*/
+
+let titulo1 =document.getElementsByClassName("titulo1")
+
+for (const elemento of titulo1){
+elemento.innerText = "DOM MODIFICADO"}
+
+
+const titulop =document.getElementsByTagName("h1")
+titulop.innerText = "Entrenate URUGUAY"
+
+const p1 = document.createElement("p")
+p1.innerText= "Mas de 300 alumnos confian en nosotros"
+const divp = document.getElementById("div")
+divp.append(p1)

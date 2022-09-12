@@ -80,3 +80,10 @@ else if (cupon===142 && Totaldecarrito > 4000){
 alert("El valor a pagar es de es : "+Totaldecarrito)
 
 
+
+let titulo1 =document.getElementsByClassName("titulo1")
+
+for (const elemento of titulo1){
+elemento.innerText = "DOM MODIFICADO"}
+
+document.querySelector("h1").innerText = "Entrenate URUGUAY";
