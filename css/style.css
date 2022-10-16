@@ -530,3 +530,28 @@ article * img {
 }
 
 /*# sourceMappingURL=style.css.map */
+/* TRAJETAS DE PRODUCTOS */  
+.cardprod{
+  border:solid 2px none;
+  width: 250px;
+  height:  400px;
+
+}
+
+
+.cardtext{
+font-family: 'Fredoka One', cursive;
+font-family: 'Mukta', sans-serif;
+text-align: center;
+}
+
+.cardprod a{
+border:  2px solid grey;
+text-decoration: none;
+font-size: 25px ;
+display: flex;
+justify-content: center;
+color: #000;
+border-radius: 10px;
+
+}
